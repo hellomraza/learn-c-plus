@@ -278,3 +278,11 @@ public:
     int year;
     Car(string x, string y, int z); // Constructor declaration
 };
+
+// Constructor definition outside the class
+Car::Car(string x, string y, int z)
+{
+    brand = x;
+    model = y;
+    year = z;
+}
