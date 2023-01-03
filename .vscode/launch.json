@@ -3,11 +3,13 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppvsdbg",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/msahu2595/Desktop/mustafa/learn-c++",
-      "program": "/Users/msahu2595/Desktop/mustafa/learn-c++/build/Debug/outDebug"
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "c:/Users/irfan/Desktop/mustafa/learn-c-plus",
+      "program": "c:/Users/irfan/Desktop/mustafa/learn-c-plus/build/Debug/outDebug"
     }
   ]
 }
