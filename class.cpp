@@ -164,7 +164,7 @@ using namespace std;
 //     return 0;
 // }
 
-// Encapsulation
+// Encapsulation ----------------------------------------------------------------------------------------------
 // - Encapsulation is one of the four fundamental OOP concepts.
 // - The idea of encapsulation is to make sure that "sensitive" data is hidden from users.
 // - To achieve this, you must:
@@ -203,7 +203,7 @@ using namespace std;
 //     return 0;
 // };
 
-// Inheritance
+// Inheritance ----------------------------------------------------------------------------------------------
 // - Inheritance is one of the four fundamental OOP concepts.
 // - It is the mechanism in which one class acquires the property of another class.
 // - The class whose properties are acquired is called the "base" class.
@@ -238,7 +238,6 @@ using namespace std;
 // }
 
 // multiple inheritance
-
 // class MyClass
 // {
 // public:
@@ -303,7 +302,7 @@ using namespace std;
 //     return 0;
 // }
 
-// Polymorphism
+// Polymorphism ----------------------------------------------------------------------------------------------
 // - Polymorphism is one of the four fundamental OOP concepts.
 // - It means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
 // - Inheritance lets us inherit attributes and methods from another class.
@@ -415,24 +414,35 @@ using namespace std;
 //     // code to handle exceptionType2
 // }
 
-int main()
-{
-    try
-    {
-        int age = 15;
-        if (age > 18)
-        {
-            cout << "Access granted - you are old enough.";
-        }
-        else
-        {
-            throw(age); // throw an exception
-        }
-    }
-    catch (int myNum)
-    {
-        cout << "Access denied - You must be at least 18 years old. \n";
-        cout << "Age is: " << myNum << "\n";
-    }
-    return 0;
-}
+// int main()
+// {
+//     try
+//     {
+//         int age = 15;
+//         if (age > 18)
+//         {
+//             cout << "Access granted - you are old enough.";
+//         }
+//         else
+//         {
+//             throw(age); // throw an exception
+//         }
+//     }
+//     catch (int myNum)
+//     {
+//         cout << "Access denied - You must be at least 18 years old. \n";
+//         cout << "Age is: " << myNum << "\n";
+//     }
+//     return 0;
+// }
+
+// Summary
+// - the four fundamental concepts of OOP are:
+// - Encapsulation
+// - Abstraction
+// - Inheritance
+// - Polymorphism
+// - Encapsulation is about hiding the complexity and only showing the essential features of the object.
+// - Abstraction is about hiding the internal details and showing only the functionality.
+// - Inheritance is about creating new classes based on existing classes.
+// - Polymorphism is about using common operations in different ways for different data input.
